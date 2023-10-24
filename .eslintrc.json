@@ -24,7 +24,9 @@
     {
       "files": ["*.ts", "*.tsx"],
       "extends": ["plugin:@nx/typescript"],
-      "rules": {}
+      "rules": {
+        "no-empty": [true, "allow-empty-functions", "allow-empty-catch"]
+      }
     },
     {
       "files": ["*.js", "*.jsx"],

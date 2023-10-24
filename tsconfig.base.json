@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@org/shared": ["libs/shared/src/index.ts"],
       "category/Module": ["apps/category/src/app/remote-entry/entry.module.ts"],
       "news-manager/Module": [
         "apps/news-manager/src/app/remote-entry/entry.module.ts"

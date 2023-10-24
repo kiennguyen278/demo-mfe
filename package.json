@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": " nx run-many --target=serve --parallel --maxParallel=10",
+    "start:category": "nx run main:serve:development && nx run category:serve:development",
     "build": " nx run-many --target=build --parallel --maxParallel=10"
   },
   "private": true,

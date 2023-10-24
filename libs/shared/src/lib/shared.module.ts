@@ -4,6 +4,9 @@ import { RouterModule } from '@angular/router';
 import { sharedRoutes } from './lib.routes';
 
 @NgModule({
-  imports: [CommonModule, RouterModule.forChild(sharedRoutes)],
+  imports: [
+    CommonModule,
+    RouterModule.forChild(sharedRoutes),
+  ],
 })
 export class SharedModule {}

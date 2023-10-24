@@ -1,0 +1,58 @@
+<div class="main-content-layout">
+  <nz-layout>
+    <nz-header>
+      <div class="main-layout-header">
+        header đã login
+      </div>
+    </nz-header>
+    <nz-layout>
+      <nz-sider
+        class="menu-sidebar"
+        [nzWidth]="260"
+        [nzCollapsedWidth]="0"
+        nzTheme="light"
+        [ngStyle]="{
+          'height': 'calc(100vh - 60px)',
+          'position': 'sticky',
+          'top': '60px',
+          'box-shadow': '0 0 4px 0 rgba(0,0,0, 0.12)',
+          'overflow-y': 'overlay'
+        }"
+      >
+        <div class="h-full">
+          sidebar left
+        </div>
+      </nz-sider>
+
+      <!--      <nz-layout [ngStyle]="{height: 'calc(100vh - 60px)'}">-->
+      <nz-layout>
+        <nz-content>
+<!--          <div class="p-[10px] pb-0">-->
+<!--            <div class="bg-[#fff] p-2 rounded-[8px]">-->
+<!--              <app-breadcrumb></app-breadcrumb>-->
+<!--            </div>-->
+<!--          </div>-->
+
+          <div class="p-[10px]">
+            <div class="">
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+
+          <!--          <div class="overflow-y-auto p-3.5 h-full">-->
+          <!--            -->
+          <!--            <router-outlet></router-outlet>-->
+          <!--          </div>-->
+        </nz-content>
+        <nz-footer class="footer-container">
+          <div class="text-center">
+            <span class="footer-powered">© Bản quyền thuộc VDTC. Phát triển bởi Viettel</span>
+          </div>
+        </nz-footer>
+      </nz-layout>
+
+
+    </nz-layout>
+  </nz-layout>
+
+</div>

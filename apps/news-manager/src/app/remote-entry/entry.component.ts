@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'org-news-manager-entry',
-  template: `<org-nx-welcome></org-nx-welcome>`,
+  selector: 'app-news-manager-entry',
+  template: `<app-nx-welcome></app-nx-welcome>`,
 })
 export class RemoteEntryComponent {}

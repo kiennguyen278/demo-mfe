@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'org-use-manager-entry',
-  template: `<org-nx-welcome></org-nx-welcome>`,
+  selector: 'app-use-manager-entry',
+  template: `<app-nx-welcome></app-nx-welcome>`,
 })
 export class RemoteEntryComponent {}

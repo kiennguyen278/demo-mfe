@@ -2,7 +2,7 @@
   "name": "category",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "org",
+  "prefix": "app",
   "sourceRoot": "apps/category/src",
   "tags": [],
   "targets": {
